@@ -1,1 +1,36 @@
+#gsBody{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: [products products] repeat(2, 1fr) [postOneThird] repeat(1, 1fr);
 
+} 
+
+/* .products {
+    display: grid;
+    grid-template-columns: ;
+} */
+
+.products {
+    grid-area: products;
+}
+
+.postOneThird {
+    grid-area: postOneThird;
+} 
+
+#gsForm {
+    grid-template-columns: repeat(2, 1fr); 
+} 
+
+#cartContain {
+    margin: 25px;
+}
+
+#coContain {
+    margin: 25px;
+    /* padding-top: 2px; */
+}
+
+#olItems {
+    margin: 23px;
+}
